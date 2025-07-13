@@ -9,3 +9,10 @@ go run ./cmd/authsvc
 ```
 
 By default the service expects Postgres on `localhost:5432` and Redis on `localhost:6379`.
+
+You can start these dependencies using Docker Compose:
+
+```
+docker compose up -d
+```
+
